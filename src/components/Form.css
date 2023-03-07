@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.formulario{
+
+    align-items: center;
+    background: #eeffa2;
+    color: rgba(0,0,0,.8);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 100vh;
+    justify-items: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+form{
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input{
+    width: 80%;
+}
+
+form button{
+    width: 80%;
+}
+
+img {
+    filter: sepia(100%);
+    width: 20%;
+    background: #807182;
+    overflow: hidden;
+    padding: 40px 0 0 0;
+    position: relative;
+    text-align: center;
+    width: 120px;
+}
